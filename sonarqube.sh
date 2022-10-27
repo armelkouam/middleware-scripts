@@ -34,7 +34,7 @@ cd /opt/sonarqube-9.3.0.51899/bin/linux-x86-64
 #Starting the firewalld if not started
 sudo systemctl start firewalld
 
-#enablinb the port 9000 used by sonarqube
+#enabling the port 9000 used by sonarqube
 sudo firewall-cmd --permanent --add-port=9000/tcp
 sudo friewall-cmd --reload
 
